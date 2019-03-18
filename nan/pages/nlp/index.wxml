@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <input bindblur="bindTextAreaBlur" auto-height placeholder="请在这里输入您想翻译的内容" id="textTranslate" bindinput="userNameInput" /> 识别结果：{{result1}}
+  <button type="primary" bindtap="texttranslate" class='buttonAll' id="demo1">文本翻译(中英)</button>
+  <view class="line-css"></view>
+
+  <view class="weui-grids">
+
+  
+    <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageTranlate">
+      <image class="weui-grid__icon" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1517549179749&di=30319c99e7cd763ba19d0a4aacda0f4c&imgtype=0&src=http%3A%2F%2Fstatic.jstv.com%2Fimg%2F2016%2F2%2F15%2F20162151455520951464_0.jpg" style='width:140rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">图片翻译</view>
+    </view>
+
+    <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageTranlate2">
+      <image class="weui-grid__icon" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1517549470769&di=0fec66effcaef818d3ae63995e6e8418&imgtype=0&src=http%3A%2F%2Fp2.ifengimg.com%2Ffck%2F2017_11%2F48f1d8533ed047b_w300_h300.jpg" style='width:140rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">待完善</view>
+    </view>
+  </view>
+</view>

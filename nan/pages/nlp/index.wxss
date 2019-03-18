@@ -1,0 +1,24 @@
+/**index.wxss**/
+@import '../../weiui.wxss';
+.buttonAll{
+  font-size: 30rpx;
+  width: 95%;
+}
+#textTranslate{
+  margin: 40rpx 10rpx,20rpx,10rpx;
+  height: 150rpx;
+}
+#demo1{
+  margin-top: 15rpx;
+}
+.line-css {
+    height: 2px;
+    background: #888;
+    margin: 30rpx 10rpx;
+}
+.menuButton{
+  width: 300rpx;
+  height: 160rpx;
+  font-size: 50rpx;
+  float: left;
+}

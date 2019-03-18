@@ -1,0 +1,60 @@
+<!--index.wxml-->
+<view class="container">
+OCR识别
+  <view class="weui-grids">
+    <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageTranlate" data-index="0" >
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/odemo-pic-1.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">身份证识别</view>
+    </view>
+     <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageTranlate" data-index="1" >
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/odemo-pic-2.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">名片识别</view>
+    </view>
+     <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageDriver" data-index="0">
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/odemo-pic-3.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">行驶证识别</view>
+    </view>
+         <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageDriver" data-index="1">
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/odemo-pic-4.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">驾驶证识别</view>
+    </view>
+     <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageTranlate"data-index="2">
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/odemo-pic-5.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">营业执照</view>
+    </view>
+     <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageTranlate"data-index="3">
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/odemo-pic-6.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">银行卡识别</view>
+    </view>
+     <view class="weui-grid" hover-class="weui-grid_active" bindtap="getImageTranlate"data-index="4">
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/o-6.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">通用识别</view>
+    </view>
+  </view>
+  图片识别
+  <view class="weui-grids">
+    <view class="weui-grid" hover-class="weui-grid_active" bindtap="getVision" data-index="2" >
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/plant-3-lg.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">花草识别</view>
+    </view>
+     <view class="weui-grid" hover-class="weui-grid_active" bindtap="getVision" data-index="1" >
+      <image class="weui-grid__icon" src="http://yyb.gtimg.com/aiplat/static/ai-demo/large/car-7-lg.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">车辆识别</view>
+    </view>
+     <view class="weui-grid" hover-class="weui-grid_active" bindtap="getVision" data-index="0" >
+      <image class="weui-grid__icon" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1517574684983&di=f37838f4cd188cae123e62895cd07d59&imgtype=0&src=http%3A%2F%2Fwww.people.com.cn%2Fmediafile%2Fpic%2F20170810%2F79%2F5935417246269734011.jpg" style='width:160rpx;height:130rpx;'
+      />
+      <view class="weui-grid__label">看图说话</view>
+    </view>
+    </view>
+  <view style='font-size:30rpx;color:#CCC'>更多功能如人脸融合，颜龄检测，图片特效等等我有空再接入</view>
+</view>
